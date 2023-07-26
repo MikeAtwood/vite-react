@@ -1,5 +1,5 @@
 import './App.css'
-
+import Greeting from './assets/components/Greeting'
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
     <>
       <div>
         <h1>Hello World</h1>
+        <Greeting />
       </div>
     </>
   )
